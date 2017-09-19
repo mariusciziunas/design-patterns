@@ -13,9 +13,9 @@ The change of requirements is probably the most common reason.
 
 ## What is a design pattern?
 Design pattern is a **solution** to a **problem** in a **context**, where
-    * **context** is the recurring situation in which the pattern applies. E.g. "we have a collection of items".
-    * **problem** is your goal to achieve following the constraints in the context. E.g. "we need to iterate without exposing the implementation".
-    * **solution** is what you’re after: a general design that anyone can apply which resolves the goal and set of constraints. (encapsulate the iteration into a separate class)
+   * **context** is the recurring situation in which the pattern applies. E.g. "we have a collection of items".
+   * **problem** is your goal to achieve following the constraints in the context. E.g. "we need to iterate without exposing the implementation".
+   * **solution** is what you’re after: a general design that anyone can apply which resolves the goal and set of constraints. (encapsulate the iteration into a separate class)
 
 ## OO principles
    * Identify aspects that vary and separate them from the things which stays the same. (Encapsulate)
@@ -70,4 +70,4 @@ Design pattern is a **solution** to a **problem** in a **context**, where
     * **Builder** encapsulates the construction of products and allow it to be constructed in steps.
         - Constructing objects requires more domain knowledge of the client than when using a Factory.
     * **Mediator** centralize complex communications and controls between related objects.
-    * **Prototype** is used when creating a new object is expensive or complicated. Most of the cases using Clone.
+    * **Prototype** is used when creating a new object is expensive or complicated. Most of the cases using 'Clone'.
