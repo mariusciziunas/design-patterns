@@ -13,8 +13,8 @@ The change of requirements is probably the most common reason.
 
 ## What is a design pattern?
 Design pattern is a **solution** to a **problem** in a **context**, where
-   * **context** is the recurring situation in which the pattern applies. E.g. "we have a collection of items".
-   * **problem** is your goal to achieve following the constraints in the context. E.g. "we need to iterate without exposing the implementation".
+   * **context** is the recurring situation in which the pattern applies. E.g. "we have a collection of items",
+   * **problem** is your goal to achieve following the constraints in the context. E.g. "we need to iterate without exposing the implementation",
    * **solution** is what you’re after: a general design that anyone can apply which resolves the goal and set of constraints. (encapsulate the iteration into a separate class)
 
 ## OO principles
