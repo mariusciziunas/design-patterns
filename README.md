@@ -11,13 +11,13 @@ Reasons you have had to change code in your application:
 
 The change of requirements is probably the most common reason.
 
-##What is a design pattern?
+## What is a design pattern?
 Design pattern is a **solution** to a **problem** in a **context**, where
     * **context** is the recurring situation in which the pattern applies. E.g. "we have a collection of items".
     * **problem** is your goal to achieve following the constraints in the context. E.g. "we need to iterate without exposing the implementation".
     * **solution** is what you’re after: a general design that anyone can apply which resolves the goal and set of constraints. (encapsulate the iteration into a separate class)
 
-##OO principles
+## OO principles
    * Identify aspects that vary and separate them from the things which stays the same. (Encapsulate)
     * Program to an interface.
     * Favor composition over inheritance.
@@ -41,7 +41,7 @@ Design pattern is a **solution** to a **problem** in a **context**, where
     * Principle of least knowledge - talk only to your immediate friends.
     * Single responsibility - the class has just one reason to change.
 
-##Patterns:
+## Patterns:
    * **Strategy** defines a family of algorithms, encapsulates each one and makes them interchangeable at runtime.
     * **Chain** of responsibility is a set of objects which gets the object, handles it and forwards to the next one.
     * **Observer** defines one to many relationship between objects when one is a publisher and the other are subscribers.
@@ -65,8 +65,8 @@ Design pattern is a **solution** to a **problem** in a **context**, where
     * **Compound** patterns consist of couple or more of patterns.
         * **MVC**(Model-View-Controller). Separation of concepts, where Model is the state, View representation layer and Controller is managing interaction between Model and View.
 
-The next patterns are not in the repository.
-    * **Bridge** decouples abstraction from its implementation, so that both can vary independently(Similar to Strategy, but without a context class).
+### The next patterns are not in the repository.
+   * **Bridge** decouples abstraction from its implementation, so that both can vary independently(Similar to Strategy, but without a context class).
     * **Builder** encapsulates the construction of products and allow it to be constructed in steps.
         - Constructing objects requires more domain knowledge of the client than when using a Factory.
     * **Mediator** centralize complex communications and controls between related objects.
