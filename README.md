@@ -1,7 +1,7 @@
 # design-patterns
 
 This is the code from my Design Patterns(DP) studies. This is a short summary from the book "Head First Design Patterns" by Eric Freeman. I highly recommend this book to everyone who wants to learn the design patterns.
-Patterns are structured to stay in their own package. A class in each package named Test<AnythingElse> is a client to test the pattern. This class is a good candidate to dive in, because it has a short description.
+Each pattern is kept in its own package. A class in each package named Test<Something> is a client to test the pattern. This Test class is a good candidate to dive in, because it has a short description.
 
 Reasons you have had to change code in your application:
 1. Requirements change
